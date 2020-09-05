@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <Count msg="Vue 3 Composition API + Typescript" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import Count from "./components/Count.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    HelloWorld
+    Count
   }
 });
 </script>
